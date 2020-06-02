@@ -2,7 +2,7 @@ public class JavaString {
 
     public static void main(String[] args) {
         String firstStr = "String Example";
-        System.out.println(firstStr.charAt(4)); // Finding characters;
+        System.out.println(firstStr.charAt(7)); // Finding characters;
 
         System.out.println(firstStr.indexOf("Example")); // Finding substring;
 
