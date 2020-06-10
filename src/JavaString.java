@@ -4,7 +4,7 @@ public class JavaString {
         String firstStr = "String Example";
         System.out.println(firstStr.charAt(7)); // Finding characters;
 
-        System.out.println(firstStr.indexOf("Example")); // Finding substring;
+        System.out.println(firstStr.lastIndexOf("Example",5)); // Finding substring;
 
         System.out.println(firstStr.length()); // Determine String Length
 
