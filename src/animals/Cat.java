@@ -9,6 +9,6 @@ public class Cat extends Animal {
 
     @Override
     public String toString() {
-        return "I am animal " + this.name + this.age;
+        return "I am a Cat " + this.name + this.age;
     }
 }
