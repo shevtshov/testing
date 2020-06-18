@@ -1,3 +1,5 @@
+package lesson7_operations_with_string;
+
 public class JavaString {
 
     public static void main(String[] args) {

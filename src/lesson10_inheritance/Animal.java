@@ -1,4 +1,4 @@
-package animals;
+package lesson10_inheritance;
 
 public class Animal {
 
@@ -6,6 +6,7 @@ public class Animal {
     int age;
 
     public static void main(String[] args) {
+        System.out.println();
         Cat cat1 = new Cat("CatOne, ", 3);
         System.out.println(cat1.toString());
         Dog dog1 = new Dog("DogOne, ", 6);

@@ -1,3 +1,5 @@
+package lesson8_file_manager;
+
 import java.io.File;
 import java.io.IOException;
 import java.util.Arrays;
@@ -34,8 +36,8 @@ public class FileManager {
                     break;
                 case 4:
                     System.out.printf("File renamed to 'Example.txt': %s%n", renameTo(file));
-                break;
-                    case 5:
+                    break;
+                case 5:
                     System.out.println("Path to the directory with file: " + pathToDirectory(new File(pathToDirectory(new File(filePath)))));
             }
 
@@ -59,10 +61,12 @@ public class FileManager {
     public static String[] listOfFiles(File file) {
         return file.list();
     }
-    public static boolean renameTo(File file){
+
+    public static boolean renameTo(File file) {
         return file.renameTo(new File("./Example.txt"));
     }
-    public static String pathToDirectory(File file){
+
+    public static String pathToDirectory(File file) {
         return file.getPath();
     }
 }
