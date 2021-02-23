@@ -15,7 +15,7 @@ public class Calculator {
 
             Scanner myObj = new Scanner(System.in);  // Create a object that can read user input
             String menuItem = myObj.nextLine();  // Read user input
-            System.out.println("Menu item is: " + menuItem);  // Output user
+            System.out.println("Menu item is: " + menuItem);  // Output user one
 
             if (menuItem.contains("0") || menuItem.contains("exit")) {
                 System.out.println("Bye-bye!");
